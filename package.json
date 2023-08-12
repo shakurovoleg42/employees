@@ -28,7 +28,8 @@
     "jsonwebtoken": "^9.0.1",
     "mongodb": "^5.7.0",
     "mongoose": "^6.10.1",
-    "react-bootstrap": "^2.8.0"
+    "react-bootstrap": "^2.8.0",
+    "render": "^0.1.4"
   },
   "devDependencies": {
     "concurrently": "^7.4.0",
