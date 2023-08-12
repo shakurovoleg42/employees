@@ -4,8 +4,8 @@
   "description": "itransition <3",
   "main": "index.js",
   "engines": {
-    "node": "16.15.1",
-    "npm": "8.12.1"
+    "node": "18.17.0",
+    "npm": "9.8.1"
   },
   "scripts": {
     "start": "node backend/server.js",
@@ -25,14 +25,14 @@
     "express": "^4.18.1",
     "express-async-handler": "^1.2.0",
     "heroku": "^8.1.9",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.1",
     "mongodb": "^5.7.0",
     "mongoose": "^6.10.1",
     "react-bootstrap": "^2.8.0"
   },
   "devDependencies": {
     "concurrently": "^7.4.0",
-    "nodemon": "^2.0.20"
+    "nodemon": "^3.0.1"
   },
   "repository": {
     "type": "git",
