@@ -27,7 +27,7 @@
     "heroku": "^8.1.9",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^5.7.0",
-    "mongoose": "^6.6.1",
+    "mongoose": "^6.10.1",
     "react-bootstrap": "^2.8.0"
   },
   "devDependencies": {
