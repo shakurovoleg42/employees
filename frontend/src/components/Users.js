@@ -24,14 +24,14 @@ function Users() {
      <tbody className="" >
        <tr>
          <td>1</td>
-         <td>Abdulkhak@gmail.com</td>
+         <td>thorsonodin2003@gmail.com</td>
          <td>25-25-2356</td>
          <td>25-25-2356</td>
       <td className={`text-${users.user1_status? "success" : "danger"}`} >{ users.user1_status? "Active" : "Blocked"}</td>
      </tr>
      <tr>
          <td>1</td>
-         <td>Abdulkhak@gmail.com</td>
+         <td>thorsonodin2003@gmail.com</td>
          <td>25-25-2356</td>
          <td>25-25-2356</td>
          <td className={`text-${users.user2_status? "success" : "danger"}`}>{ users.user2_status? "Active" : "Blocked"}</td>
@@ -43,7 +43,6 @@ function Users() {
 }
 
 export default Users;
-
 
 
 const DeleteIcon = () => (

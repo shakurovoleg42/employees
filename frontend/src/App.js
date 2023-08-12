@@ -1,4 +1,5 @@
-import { Routes, Route, useNavigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import store from "./app/store";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -10,7 +11,7 @@ import AdminPanel from "./components/AdminPanel";
 import DashoardLayout from "./components/DashboardLayout";
 import ResetPassword from "./components/ResetPassword";
 import { Provider } from "react-redux";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 
 function App() {
 
