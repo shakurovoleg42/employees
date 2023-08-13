@@ -1,11 +1,8 @@
-import { Routes, Route, Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import authService from "./features/auth/authService";
 import { useNavigate } from "react-router-dom";
-import userService from "./features/user/userService";
-import { useEffect, useState } from "react";
 
 function Navbars() {
  const navigate = useNavigate();
