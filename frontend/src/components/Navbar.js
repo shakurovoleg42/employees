@@ -23,7 +23,7 @@ function Navbars() {
     <Container>
      {/* <Navbar.Brand href="/">
      </Navbar.Brand> */}
-     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+     {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
      <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="me-auto">
        <Nav.Item className="text-white">User: {user.name}</Nav.Item>
