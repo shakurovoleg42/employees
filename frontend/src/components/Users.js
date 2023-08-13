@@ -21,7 +21,7 @@ function Users() {
          <th>Status</th>
        </tr>
      </thead>
-     <Form className="" >
+     {/* <Form className="" >
        <tr>
          <td>1</td>
          <td>thorsonodin2003@gmail.com</td>
@@ -36,7 +36,7 @@ function Users() {
          <td>25-25-2356</td>
          <td className={`text-${users.user2_status? "success" : "danger"}`}>{ users.user2_status? "Active" : "Blocked"}</td>
      </tr>
-     </Form>
+     </Form> */}
    </Table>
    </div>
  );
