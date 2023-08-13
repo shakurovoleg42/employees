@@ -9,9 +9,9 @@ import AdminPanel from "./AdminPanel";
 function DashoardLayout() {
  return (
   <div className="App">
-   <Navbar />
-   <Users />
+   <Navbar/>
    <AdminPanel/>
+   <Users/>
   </div>
  );
 }
