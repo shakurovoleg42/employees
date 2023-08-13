@@ -78,7 +78,7 @@ function SignIn() {
    <Form
     style={{
      borderRadius: "10px",
-     backgroundColor: "rgba(10, 96, 125, 1);",
+     backgroundColor: "rgba(10, 96, 125, 1)",
      width: "400px",
     }}
     className="p-3 text-white"
