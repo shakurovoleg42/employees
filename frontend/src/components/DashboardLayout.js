@@ -6,13 +6,13 @@ import Navbar from "./Navbar";
 import AdminPanel from "./AdminPanel";
 
 
-function DashoardLayout() {
+function DashboardLayout() {
  return (
   <div className="App">
    <Navbar />
-   <AdminPanel/>
+   <AdminPanel />
   </div>
  );
 }
 
-export default DashoardLayout;
+export default DashboardLayout;

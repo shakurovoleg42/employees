@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "/api/user/";
+// const API_URL = "/api/user/";
 
 // Get  users
 const getUsers = async () => {
@@ -8,7 +8,7 @@ const getUsers = async () => {
  const config = {
   headers: { Authorization: `Bearer ${user.token}` },
  };
- let response = await axios.get(API_URL, config);
+ let response = await axios.get(`http://localhost:3000/api/user/`, config);
 
  if (response.data) {
   localStorage.setItem("users", JSON.stringify(response.data));
@@ -24,7 +24,7 @@ const getMe = async () => {
   headers: { Authorization: `Bearer ${user.token}` },
  };
  const response = await axios
-  .get(API_URL + "me", config)
+  .get("http://localhost:3000/api/user/" + "me", config)
   .then((response) => response.data)
   .catch((error) => error.data);
  return response;
@@ -34,7 +34,7 @@ const getMe = async () => {
 const deleteUsers = async (userIds) => {
  const { IDs } = userIds;
  const body = {IDs};
- let response = await axios.put(API_URL + "del", body);
+ let response = await axios.put("http://localhost:3000/api/user/" + "del", body);
 
  return response.data;
 };
@@ -50,7 +50,7 @@ const updateUsers = async (updateUsersStatus) => {
   IDs,
   status,
  };
- let response = await axios.put(API_URL, body, config);
+ let response = await axios.put(`http://localhost:3000/api/user/`, body, config);
 
  return response.data;
 };
